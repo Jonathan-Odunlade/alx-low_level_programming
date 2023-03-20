@@ -1,25 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - this prints numbers from o and 9
+ * main - this is the entry point of the code
  *
- * Return : always 0 (when code is successful)
+ * Return: 0 (when code is successful)
  */
 
-
 int main(void)
-
 {
+	int c;
 
-    int c;
-
-    c = 0;
-    while 
-	   (c < 10 ) {
-		   putchar(c + '0');
-		   c++;
-	   }
-    putchar('\n');
-
-    return (0);
+	for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
