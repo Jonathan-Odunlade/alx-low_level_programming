@@ -1,19 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - prints numbers 0 to 9
+ *main - this prints numbers from 0 to 9
  *
- * Return: 0 (only if code is successful)
+ *Return: Always 0 when code is successful
  */
 
 int main(void)
 {
-	char ch = '0';
+	int i;
 
-	for (ch = '0'; ch <= 'z'; ch++)
-		putchar(ch);
-
-	putchar('\n');
-
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
+	printf("\n");
 	return (0);
 }
