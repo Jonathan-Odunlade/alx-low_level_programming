@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - prints all aphabets
+ * main - prints all aphabets
  *
  * Return: 0 (if code is successful)
  */
